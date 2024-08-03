@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(../../../../../../../../../portfolio2.avif);
+}
+
+header {
+    background-color: #535050;
+    color: #0a0707;
+    padding: 1em 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+header:hover {
+    box-shadow: 0 8px 16px rgba(13, 12, 12, 0.5);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #0e0c0c;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #f0f0f0;
+}
+
+section {
+    background-color: #333131;
+    padding: 2em;
+    margin: 1em auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+section:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    transform: scale(1.02);
+}
+
+h1, h2, h3 {
+    color: #e9e4e4;
+}
+
+.skill-set, .project {
+    margin: 1em 0;
+}
+
+.project a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project a:hover {
+    background-color: #0056b3;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    background-color: #141010;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.3);
+}
+
+footer p {
+    margin: 0;
+}
